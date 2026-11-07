@@ -1,1 +1,21 @@
+#Simulation Waveforms
 
+## Baud Rate Generator
+
+This waveform verifies the baud rate generator functionality. It generates the SPI clock timing based on the configured SPPR and SPR values. The generated clock determines the speed of SPI data transmission.
+
+## Shift Register
+
+This waveform verifies the shift register functionality. It loads parallel data and converts it into serial data for transmission through the MOSI signal. It also performs shifting operations during SPI communication.
+
+## APB Slave Interface
+
+This waveform verifies the APB slave interface functionality. It handles APB read and write transactions using signals such as PSEL, PENABLE, PWRITE, PADDR, and PWDATA. It provides read data through PR_DATA and generates the appropriate response signals.
+
+## Slave Select Control
+
+This waveform verifies the slave select control functionality. It activates the selected SPI slave during data transmission and deactivates it after the communication is completed.
+
+## Top Module
+
+This waveform verifies the overall functionality of the APB-SPI Master IP. It demonstrates the integration of the APB slave interface, baud rate generator, shift register, and slave select control modules during SPI communication.
