@@ -1,26 +1,26 @@
-APB Interfaced SPI Master Controller
+# APB Interfaced SPI Master Controller
 
-Project Overview
+## Project Overview
 
 This project involves the design and implementation of an APB Interfaced SPI Master Controller using Verilog HDL.
 
 The design integrates the Advanced Peripheral Bus (APB) protocol with the Serial Peripheral Interface (SPI) protocol to enable serial communication between a processor-side bus and SPI slave devices.
 
-Project Objectives
+## Project Objectives
 
 - To design an SPI Master controller using Verilog HDL.
 - To interface SPI communication with the APB protocol.
 - To implement programmable SPI clock generation.
 - To design modular RTL blocks for SPI communication.
 
-Technologies & Tools
+## Technologies & Tools
 
 - Verilog HDL
 - ModelSim
 - APB (Advanced Peripheral Bus)
 - SPI (Serial Peripheral Interface)
 
-Design Architecture
+## Design Architecture
 
 The design consists of the following modules:
 
@@ -51,7 +51,7 @@ SPI Interface Signals
 - SCLK: Serial Clock
 - SS: Slave Select
 
-Project Directory Structure
+## Project Directory Structure
 
 APB-Interfaced-SPI-Master/
 │
@@ -67,13 +67,13 @@ APB-Interfaced-SPI-Master/
 ├── top_tb.v
 └── README.md
 
-Verification
+## Verification
 
 Individual Verilog testbench files are provided for the design modules.
 
 Simulation waveforms and results will be added to the repository.
 
-Learning Outcomes
+## Learning Outcomes
 
 - Understanding APB and SPI protocols.
 - RTL design using Verilog HDL.
@@ -81,7 +81,7 @@ Learning Outcomes
 - Testbench development and functional simulation.
 - Understanding serial communication interfaces.
 
-Author
+## Author
 
 Sahithi K.
 
